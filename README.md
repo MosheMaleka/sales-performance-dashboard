@@ -1,5 +1,5 @@
 # sales-performance-dashboard
-
+Built using: Python (pandas), Google Colab, Power BI, Excel
 ## Data Processing (ETL Pipeline)
 
 Data cleaning and transformation were performed using Python (pandas) in Google Colab. The ETL pipeline removes null values, standardizes regions, and calculates Net Revenue, Month, Year, and Margin % before exporting the cleaned dataset to CSV for use in Power BI.
