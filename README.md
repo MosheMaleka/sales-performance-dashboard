@@ -24,3 +24,5 @@ SQL transformations were implemented in PostgreSQL (Supabase) to create analytic
 - Top Sales Representatives
 
 See `sql/transformations.sql` for full implementation.
+
+I built a cloud-based ETL pipeline using Python and PostgreSQL, implemented SQL analytical views, and developed a Power BI dashboard.
