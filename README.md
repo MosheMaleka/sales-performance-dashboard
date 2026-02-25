@@ -14,3 +14,13 @@ Data cleaning and transformation were performed using Python (pandas) in Google 
   - Extract Month and Year
   - Compute Margin %
 - Load: Export cleaned data to CSV
+
+## SQL Transformations
+
+SQL transformations were implemented in PostgreSQL (Supabase) to create analytical views including:
+
+- Revenue by Region
+- Monthly Sales Trend
+- Top Sales Representatives
+
+See `sql/transformations.sql` for full implementation.
