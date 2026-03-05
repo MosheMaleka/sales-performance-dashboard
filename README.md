@@ -26,3 +26,29 @@ SQL transformations were implemented in PostgreSQL (Supabase) to create analytic
 See `sql/transformations.sql` for full implementation.
 
 I built a cloud-based ETL pipeline using Python and PostgreSQL, implemented SQL analytical views, and developed a Power BI dashboard.
+
+
+## 📊 Sales Performance Dashboard
+
+This interactive Power BI dashboard analyzes sales performance across regions, products, and sales representatives.
+
+### Key Insights
+
+- Total Revenue
+- Total Orders
+- Average Discount %
+- Revenue Trends Over Time
+- Top Performing Products
+- Sales Performance by Region
+- Sales Rep Performance
+
+### Dashboard Preview
+
+![Sales Dashboard](sales-dashboard.png)
+
+### Tools Used
+
+- Python (pandas) – Data cleaning and transformation
+- Google Colab – ETL pipeline
+- PostgreSQL (Supabase) – Data storage and SQL transformations
+- Power BI – Data visualization and dashboarding
