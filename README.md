@@ -108,7 +108,7 @@ An interactive **Power BI dashboard** was created to visualize key sales insight
 
 # 🖼️ Dashboard Preview
 
-![Sales Dashboard](sales-dashboard.png)
+![Sales Dashboard](images/sales-dashboard.png)
 
 ---
 
