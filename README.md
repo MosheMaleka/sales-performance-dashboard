@@ -118,7 +118,7 @@ An interactive **Power BI dashboard** was created to visualize key sales insight
 sales-performance-dashboard
 │
 ├── raw_sales_data.xlsx
-├── cleaned_sales_data.csv
+├── sales_data_postgres_ready.csv
 ├── sales_etl_pipeline.ipynb
 ├── transformations.sql
 ├── sales-performance-dashboard.pbix
