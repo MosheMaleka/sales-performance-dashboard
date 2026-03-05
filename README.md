@@ -1,5 +1,5 @@
 # 📊 Sales Performance Dashboard
-
+End-to-End Data Analytics Project: Python → PostgreSQL → AWS → Power BI
 This project demonstrates an **end-to-end Data Analytics pipeline** using Python, SQL, cloud infrastructure, and Power BI.
 
 The goal of the project is to analyze sales performance across **regions, products, and sales representatives** and present actionable insights through an **interactive dashboard**.
