@@ -1,54 +1,110 @@
-# sales-performance-dashboard
-Built using: Python (pandas), Google Colab, Power BI, Excel
-## Data Processing (ETL Pipeline)
+# 📊 Sales Performance Dashboard
 
-Data cleaning and transformation were performed using Python (pandas) in Google Colab. The ETL pipeline removes null values, standardizes regions, and calculates Net Revenue, Month, Year, and Margin % before exporting the cleaned dataset to CSV for use in Power BI.
+This project demonstrates an end-to-end **Data Analytics pipeline** using Python, SQL, and Power BI.  
+The goal of the project is to analyze sales performance across **regions, products, and sales representatives** and present insights through an interactive dashboard.
 
-### ETL Steps:
-- Extract: Load raw Excel sales data
-- Transform:
-  - Remove null values
-  - Standardize region names
-  - Convert Order_Date to datetime format
-  - Calculate Net Revenue (Revenue – Discount)
-  - Extract Month and Year
-  - Compute Margin %
-- Load: Export cleaned data to CSV
+---
 
-## SQL Transformations
+# 🛠️ Technologies Used
 
-SQL transformations were implemented in PostgreSQL (Supabase) to create analytical views including:
+- **Python (pandas)** – Data cleaning and transformation  
+- **Google Colab** – Cloud environment for ETL pipeline  
+- **PostgreSQL (Supabase)** – Cloud database and SQL transformations  
+- **Power BI** – Data visualization and dashboard creation  
+- **Excel** – Source data format  
+
+---
+
+# 🔄 Data Processing (ETL Pipeline)
+
+Data cleaning and transformation were performed using **Python (pandas) in Google Colab**.  
+The ETL pipeline prepares the raw sales dataset for analysis and visualization.
+
+### ETL Steps
+
+**Extract**
+- Load raw Excel sales data
+
+**Transform**
+- Remove null values
+- Standardize region names
+- Convert `order_date` to datetime format
+- Calculate **Net Revenue** (`Revenue – Discount`)
+- Extract **Month** and **Year**
+- Compute **Margin %**
+
+**Load**
+- Export cleaned dataset to **CSV** for use in Power BI and PostgreSQL.
+
+---
+
+# 🗄️ SQL Transformations
+
+SQL transformations were implemented in **PostgreSQL (Supabase)** to support analytical queries and reporting.
+
+Example analyses include:
 
 - Revenue by Region
 - Monthly Sales Trend
 - Top Sales Representatives
 
-See `sql/transformations.sql` for full implementation.
+The full SQL transformations are available in:
 
-I built a cloud-based ETL pipeline using Python and PostgreSQL, implemented SQL analytical views, and developed a Power BI dashboard.
+```
+sql/transformations.sql
+```
 
+---
 
-## 📊 Sales Performance Dashboard
+# 📊 Power BI Dashboard
 
-This interactive Power BI dashboard analyzes sales performance across regions, products, and sales representatives.
+An interactive Power BI dashboard was built to visualize key business insights.
 
-### Key Insights
+### Key Metrics
 
 - Total Revenue
 - Total Orders
+- Total Discount Value
 - Average Discount %
-- Revenue Trends Over Time
-- Top Performing Products
-- Sales Performance by Region
-- Sales Rep Performance
 
-### Dashboard Preview
+### Visualizations
+
+- Revenue Trend by Month
+- Revenue by Region
+- Top Revenue by Product
+- Sales Performance by Sales Representative
+- Interactive Region Filter
+
+---
+
+# 🖼️ Dashboard Preview
 
 ![Sales Dashboard](sales-dashboard.png)
 
-### Tools Used
+---
 
-- Python (pandas) – Data cleaning and transformation
-- Google Colab – ETL pipeline
-- PostgreSQL (Supabase) – Data storage and SQL transformations
-- Power BI – Data visualization and dashboarding
+# 📁 Project Structure
+
+```
+sales-performance-dashboard
+│
+├── raw_sales_data.xlsx
+├── cleaned_sales_data.csv
+├── sales_etl_pipeline.ipynb
+├── transformations.sql
+├── sales-performance-dashboard.pbix
+└── README.md
+```
+
+---
+
+# 🚀 Project Summary
+
+In this project I:
+
+- Built a **cloud-based ETL pipeline using Python**
+- Stored and transformed data using **PostgreSQL (Supabase)**
+- Implemented **SQL analytical queries**
+- Developed an **interactive Power BI dashboard**
+
+This project demonstrates a **complete data analytics workflow from raw data to business insights**.
