@@ -122,6 +122,7 @@ sales-performance-dashboard
 ├── sales_etl_pipeline.ipynb
 ├── transformations.sql
 ├── sales-performance-dashboard.pbix
+├── sales-dashboard.png  
 └── README.md
 ```
 
