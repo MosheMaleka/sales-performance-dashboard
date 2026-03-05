@@ -3,7 +3,7 @@
 **End-to-End Data Analytics Project:**  
 Python → PostgreSQL → AWS → Power BI
 
-This project demonstrates an end-to-end Data Analytics pipeline using Python, SQL, cloud infrastructure, and Power BI.
+This setup demonstrates how a modern cloud-based analytics workflow can be built using cloud infrastructure without requiring a local Windows environment.
 
 The goal of the project is to analyze sales performance across **regions, products, and sales representatives** and present actionable insights through an **interactive dashboard**.
 
@@ -142,4 +142,4 @@ In this project I:
 * Developed an **interactive Power BI dashboard**
 * Used **AWS EC2 to run Power BI Desktop in a cloud Windows environment**
 
-This project demonstrates a **complete data analytics workflow from raw data to business insights**.
+This project demonstrates a complete end-to-end analytics workflow, transforming raw data into actionable business insights using modern data tools and cloud infrastructure.
